@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}main{% endblock %}
+
+{% block content %}
+<div class="currencies">
+    <a href="{{ url_for('get_info_about_currency',symbol='BTCUSDT') }}">BTCUSDT</a>
+    <a href="{{ url_for('get_info_about_currency',symbol='ETHUSDT') }}">ETHUSDT</a>
+    <a href="{{ url_for('get_info_about_currency',symbol='ARBUSDT') }}">ARBUSDT</a>
+    <a href="{{ url_for('get_info_about_currency',symbol='LTCUSDT') }}">LTCUSDT</a>
+    <a href="{{ url_for('get_info_about_currency',symbol='OPTUSD') }}">OPTUSD</a>
+    <a href="{{ url_for('get_info_about_currency',symbol='SOLUSDT') }}">SOLUSDT</a>
+    <a href="{{ url_for('get_info_about_currency',symbol='MATICUSDT') }}">MATICUSDT</a>
+</div>
+{% endblock%}
+
