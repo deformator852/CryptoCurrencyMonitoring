@@ -7,11 +7,11 @@ Python 3: Make sure you have Python 3 installed on your system.
 
 Flask: You can install Flask using pip if you haven't already.
 
--pip install Flask
+    pip install Flask
 
 Binance API Python SDK: Install the Binance API Python SDK using pip.
 
--pip install python-binance
+    pip install python-binance
 
 Setting up the SQLite Database
 
