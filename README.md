@@ -1,3 +1,15 @@
+Project Description: Real-Time Cryptocurrency Price Tracker with Flask
+
+This project is a real-time cryptocurrency price tracking web application built using Python and Flask, allowing users to monitor the latest prices of various cryptocurrencies. It consists of two main components: a Flask web application and a data collection script that retrieves cryptocurrency price data from the Binance API and stores it in an SQLite database.
+
+Key Features:
+
+    Cryptocurrency Price Tracking: Users can access real-time prices of cryptocurrencies such as Bitcoin (BTC), Ethereum (ETH), and others.
+
+    Detailed Currency Information: Users can click on individual currency symbols to view detailed information, including historical price data.
+
+
+
 To run the Flask web application and the data collection script together, follow these steps:
 Prerequisites
 
